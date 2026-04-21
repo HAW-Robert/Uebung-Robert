@@ -2,10 +2,11 @@ public class Account2 {
     private int accountnumber;
     private double balance;
 //Konstruktor
-public Account2(int a, double b){ //Der Konstruktor muss klar definiert sein  ( wenn nur ein konstruktor wo a und b einen wert haben muss man auch beim erstellen a und b eintragen)
-    accountnumber = a;
-    balance = b;
+public Account2(int accountnumber, double balance){ //Der Konstruktor muss klar definiert sein  ( wenn nur ein konstruktor wo a und b einen wert haben muss man auch beim erstellen a und b eintragen)
+    this.accountnumber = accountnumber;// Es ist gewollt das der Parameter und die Variable den selben namen haben . "this.name" ist die zu verändernde variable "name" ist der Parameter
+    this.balance = balance;
 }
+public Account2(Account2 other){}
 //getters setters
 // Setters sind eigentlich überflüssig wenn man konstruktoren hat . Jedenfalls bei diesem beispiel
 public void setAccountnumber(int newNumber){
