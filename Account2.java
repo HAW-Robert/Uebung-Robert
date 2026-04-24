@@ -29,6 +29,10 @@ public void payIn(double amount){
     balance += amount;
 
 }
+public void payOut(double amount){
+    balance -= amount;
+    setBalance(balance);
+}
 public static void main(String[] args){
     Account2 myAccount = new Account2(420,300); // Dank dem Konstruktor kann ich einfach werrte in die klammer eintragen und diese Werden direkt für den neuen Account übernommen 
     myAccount.info();
