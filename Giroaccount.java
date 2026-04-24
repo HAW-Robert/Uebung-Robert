@@ -34,6 +34,7 @@ public class Giroaccount extends Account2 { //durch das extend wird Giroaccount 
         return limit;
         
     }
+    @Override
     public void info(){
         System.out.println("Accountnumber = " + getAccountnumber()); // Da wir in einer subklasse sind muss ich über Methioden auf Variablen zugreifen
         System.out.println("Kontostand = " + getBalance());
