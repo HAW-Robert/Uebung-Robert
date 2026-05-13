@@ -1,4 +1,6 @@
+package Account;
 //Dieses Programm soll den Unterschied zwischen variablen und klassen zeigen . Aus C kennt man es als call by Value und call by reference 
+
 public class ParamExample {
     public void example(double amount, Account account){ // amount = Zahl die ich der Funktion überreiche
         amount += 100;                                   // account = Speicheradresse des Objekts der Klasse Account übergeben

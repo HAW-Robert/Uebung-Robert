@@ -1,4 +1,6 @@
+package Account;
 //Giroaccount ist Subklasse von Account2: dadurch erbt Giroaccount die public Attribute und public Methoden von Account2. In diesem Programm sieht man worauf man achten muss beim vererben. Um die Privaten Attribute von Account2 zu erhalten hat man den Konstruktor von Acc2 aufgerufen.
+
 public class Giroaccount extends Account2 { //durch das extend wird Giroaccount eine subklasse von Account2 
     private double limit ;                  //Subklassen erben die eigenschaften ihrer superklasse 
 
